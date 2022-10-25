@@ -6,6 +6,6 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - uses: mortenp1337/actions-semantic-release/greeting-action.yml@greeting-action-v1.1.0
+      - uses: mortenp1337/actions-semantic-release/greeting-action@greeting-action-v1.1.0
 
       
