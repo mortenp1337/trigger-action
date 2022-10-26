@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: mortenp1337/actions-semantic-release/greeting-action@greeting-action-v1.0.0
-      - uses: mortenp1337/actions-semantic-release/greeting-action@greeting-action-v1.0.0
+      - uses: mortenp1337/actions-semantic-release/greeting-action@greeting-action-v1.1.0
       - uses: mortenp1337/actions-semantic-release/farewell-action@farewell-action-v1.0.0
 
       
