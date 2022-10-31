@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0.0
         with: 
-          person: 'v1.0.0 specified'
+          person: 'v1.0.2 specified'
       - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0
         with: 
           person: 'v1.0 specified'     
