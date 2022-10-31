@@ -6,7 +6,7 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0.0
+      - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0.2
         with: 
           person: 'v1.0.2 specified'
       - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0
