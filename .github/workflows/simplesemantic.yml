@@ -1,0 +1,17 @@
+name: trigger action
+on:
+  workflow_dispatch:
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0.0
+        with: 
+          person: 'v1.0.0 specified'
+      - uses: mortenp1337/actions-semantic-release/farewell-action@v1.0
+        with: 
+          person: 'v1.0 specified'     
+      - uses: mortenp1337/actions-semantic-release/farewell-action@v1
+        with: 
+          person: 'v1 specified'
